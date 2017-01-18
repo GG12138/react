@@ -1,0 +1,50 @@
+
+git init:创建仓库
+
+git add:添加
+
+git commit:提交
+
+git status: 是否add查看
+
+git diff:查看修改了什么
+
+git log:查看版本
+
+git log --pretty=oneline : 查看简略信息
+
+git reset --hard {commit_id} : 重置提交
+
+git reflog :曾输入的git 命令
+
+git checkout -- 文件名 ：重置
+
+git checkout -b 分支名 ：创建+切换 新的分支
+
+git branch :查看分支
+
+git checkout <name> :切换分支
+
+git branch :查看分支
+
+git branch -d <name>：删除子分支
+
+git merge <name>：合并某个分支到当前分支
+
+
+git rm <name> :删除文件
+
+
+git merge --no-ff -m "" <name> :衍合
+
+git graph : 查看分支图
+
+git stash : 贮存  git stash apply :恢复贮存
+
+git stash list : 查看贮存 git stash drop :删除贮存
+
+git stash  pop : 使用贮存，并删除
+
+git remote -v :查看远程
+
+git pull : 抓取
